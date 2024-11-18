@@ -5,11 +5,11 @@ function Banner() {
     <div className="w-full max-w-[1280px] flex md:flex-row flex-col">
       <div className="w-full flex flex-col justify-center md:px-4 gap-y-9 pt-7 items-center md:items-start md:mx-12">
        
-          <div className="  md:text-left md:gap--y-7 w-full max-w-[500px] flex flex-col gap-8 py-6 px-5">
-            <h1 className="font-bold font-[Roboto] text-3xl md:text-6xl">
+          <div className="  md:text-left md:gap-y-7 w-full max-w-[500px] flex flex-col gap-8 py-6 px-5">
+            <h1 className="font-bold font-sans text-3xl md:text-6xl">
               Learn new skills online with ease
             </h1>
-            <p className="text-lg md:text-xl md:h-[54px] font-[Roboto] ">
+            <p className="text-lg md:text-xl md:h-[54px] font-sans">
             Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
             </p>
             <div className="flex gap-2 ">

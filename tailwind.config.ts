@@ -12,8 +12,11 @@ const config: Config = {
         secondary:"#F7F7F7",
         text:"#000000",
         primary:"#FFFFFF"
-
       },
+      fontFamily:{
+        sans:["Roboto" , "sans-serif"]
+      }
+      
     },
   },
   plugins: [],
