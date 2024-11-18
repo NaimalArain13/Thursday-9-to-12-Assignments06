@@ -1,7 +1,6 @@
 import TestimonialCard, { TestimonialsProps } from "@/components/testimonials";
 
 export default function Testimonials() {
-    const width= 428
     const testimonials: TestimonialsProps[] = [
         {
             description: "The courses provided here are simply amazing! I learned so much about web development and felt fully supported throughout my journey.",

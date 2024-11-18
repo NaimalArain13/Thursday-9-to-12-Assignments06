@@ -1,7 +1,5 @@
-import Achievements from "@/components/achievement";
 import CategorySection from "@/components/category";
 import CourseCard, { CourseCardProp } from "@/components/courseCard";
-import Link from "next/link";
 import React from "react";
 
 

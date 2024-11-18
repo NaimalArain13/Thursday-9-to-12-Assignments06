@@ -1,6 +1,4 @@
 import Banner from "@/components/banner";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import TopSection from "@/components/top";
 import Image from "next/image";
 import Courses from "./(routes)/courses/page";
@@ -15,7 +13,7 @@ export default function Home() {
       <Banner />
       <div className="bg-grey flex flex-col md:flex-row gap-3 py-4 w-full max-w-[1280px] h-[150px] justify-between  items-center ">
         <h1 className="text-lg px-8 md:text-2xl font-semibold md:font-bold">
-        Trusted by the world's best companies [social proof to build credibility]
+        Trusted by the world&#39;s best companies [social proof to build credibility]
         </h1>
         <div className="flex flex-row gap-3 ">
           <div
