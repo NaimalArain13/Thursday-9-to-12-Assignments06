@@ -39,7 +39,7 @@ export default function Team(){
     return(
         <>
         <Achievement />
-        <div className="flex bg-secondary flex-col min-h-screen items-center text-center py-12 px-4">
+        <div className="flex w-full max-w-[1280px] bg-secondary flex-col min-h-screen items-center text-center py-12 px-4">
             <h1 className="text-4xl font-bold mb-4">Our Team</h1>
             <p className="text-gray-600 mb-10 max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             <div className="grid grid-cols md:grid-cols-3 space-y-8 md:gap-8 px-8 w-full max-w-6xl">

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-primary">
-      <div className="max-w-7xl pt-3 mx-auto px-4 space-y-8 md:px-8">
+      <div className="max-w-7xl pt-3  px-4 space-y-8 md:px-8">
         
         {/* First Section: Newsletter Subscription */}
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -18,7 +18,7 @@ export default function Footer() {
             <input type="email" placeholder="Enter your email" className="p-2 px-7 rounded-md border  border-gray-500 tracking-widest text-center" />
             <button className="border border-1 border-text hover:text-primary hover:bg-text p-1 px-4 rounded-md text-lg">Subscribe</button>
           </div>
-          <p className="text-[12px]  mt-3 text-center md:text-left">
+          <p className="text-[13px]   mt-3 text-center md:text-left">
             By subscribing, you agree with our{" "}
             <Link href="#" className="underline underline-offset-4">
               Privacy Policy
@@ -31,10 +31,10 @@ export default function Footer() {
         {/* Middle Section: Links and Logo */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           {/* Logo */}
-          
-            <Image src={"/images/footerLogo.svg"} alt="" width={136} height={40}  />
+          <div className="flex justify-center md:items-start md:justify-start">
+            <Image src={"/images/footerLogo.svg"} alt="footerLogo" width={136} height={40}  className=""/>
             
-          
+            </div>
 
           {/* Links Column 1 */}
           <div>

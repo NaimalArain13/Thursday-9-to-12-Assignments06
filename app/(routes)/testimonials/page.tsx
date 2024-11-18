@@ -23,7 +23,7 @@ export default function Testimonials() {
     ];
 
     return (
-        <div className="flex bg-secondary flex-col min-h-screen items-center gap-y-4 py-12 ">
+        <div className="flex w-full max-w-[1280px] bg-secondary flex-col min-h-screen items-center gap-y-4 py-12 ">
               <div>
                 <h1 className="text-4xl font-bold mb-4 text-center block sm:hidden">
                     What Our Students Say
