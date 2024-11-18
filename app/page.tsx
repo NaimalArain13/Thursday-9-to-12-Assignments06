@@ -1,5 +1,4 @@
 import Banner from "@/components/banner";
-import TopSection from "@/components/top";
 import Image from "next/image";
 import Courses from "./(routes)/courses/page";
 import Team from "./(routes)/team/page";
@@ -8,7 +7,6 @@ import Testimonials from "./(routes)/testimonials/page";
 export default function Home() {
   return (
     <div>
-      <TopSection />
    
       <Banner />
       <div className="bg-grey flex flex-col md:flex-row gap-3 py-4 w-full max-w-[1280px] h-[150px] justify-between  items-center ">
